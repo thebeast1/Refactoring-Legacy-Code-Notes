@@ -15,8 +15,8 @@ for any of these approaches first we need to know how is our code base structure
 if the database class is using singleton first approache is:
 #### Introduce Static Setter: 
 ###### for minimal change in your production code
-  replace the original static method of the singleton with test instance.
-  remove the final keyword.
-  change the private constructor to public.
+ -replace the original static method of the singleton with test instance.
+ -remove the final keyword.
+ -change the private constructor to public.
 
 -----------------------------------
