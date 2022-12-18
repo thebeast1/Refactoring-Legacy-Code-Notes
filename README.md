@@ -14,5 +14,5 @@ There is three approaches for Mocking it or Fake it:              from "Working 
 for any of these approaches first we need to know how is our code base structure?
 if the database class is using singleton first approache is:
 #### Introduce Static Setter:
-###### replace the original static method of the singleton with test instance.
+replace the original static method of the singleton with test instance.
 
