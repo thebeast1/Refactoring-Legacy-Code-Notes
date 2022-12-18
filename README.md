@@ -16,3 +16,4 @@ if the database class is using singleton first approache is:
 #### Introduce Static Setter:
 replace the original static method of the singleton with test instance.
 
+-----------------------------------
